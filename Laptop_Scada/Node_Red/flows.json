@@ -1,0 +1,1068 @@
+[
+    {
+        "id": "69d7a065eabb3658",
+        "type": "tab",
+        "label": "MQTT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a32afd31f2ea0e4f",
+        "type": "tab",
+        "label": "LAN",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c57a2455840fecb7",
+        "type": "mqtt-broker",
+        "name": "pi to pico 1 ",
+        "broker": "192.168.0.143 ",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9d9a90a57a9f813b",
+        "type": "mqtt-broker",
+        "name": "pi to pico 2",
+        "broker": "192.168.0.143 ",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "407c904f9a172b36",
+        "type": "ui_tab",
+        "name": "Lab Industry 4.0 Volt",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "524cd815e6df6061",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#8f07c0",
+                "baseFont": "Verdana,Verdana,Geneva,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#8f07c0",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#8f07c0",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#bd1df7",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#8f07c0",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Verdana,Verdana,Geneva,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Laboratorio Node",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 100,
+                "sy": 100,
+                "gx": 6,
+                "gy": 6,
+                "cx": 10,
+                "cy": 10,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3735876d3be41b26",
+        "type": "ui_tab",
+        "name": "Lab Industry 4.0 Temperatura",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6ff33216bcaa15fe",
+        "type": "ui_group",
+        "name": "Lab Industry 4.0 Volt",
+        "tab": "407c904f9a172b36",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01014463d832120c",
+        "type": "ui_group",
+        "name": "Lab Industry 4.0 Temperatur",
+        "tab": "3735876d3be41b26",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "530f046ad9ae38ef",
+        "type": "modbus-client",
+        "name": "pico1",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.0.143",
+        "tcpPort": "5021",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "c1bc87682f9e45bd",
+        "type": "modbus-client",
+        "name": "pico2",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.0.143",
+        "tcpPort": "5020",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": 9600,
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "dc786b9847623863",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2234ad73a7038367",
+        "type": "ui_spacer",
+        "z": "a32afd31f2ea0e4f",
+        "name": "spacer",
+        "group": "dc786b9847623863",
+        "order": 1,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "37e23d3c16fd7ccc",
+        "type": "ui_tab",
+        "name": "Lab Industry Temperatura",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b3678cec8155b24c",
+        "type": "ui_tab",
+        "name": "Lab Industry Volt",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6e6d6f365d747461",
+        "type": "ui_group",
+        "name": "Lab Industry Temperatur",
+        "tab": "37e23d3c16fd7ccc",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6190e02782b61af0",
+        "type": "ui_group",
+        "name": "Lab Industry Volt",
+        "tab": "b3678cec8155b24c",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "65c447e0ce6b9e04",
+        "type": "mqtt in",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "topic": "volt",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c57a2455840fecb7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "a684baa964255cbc"
+            ]
+        ],
+        "icon": "node-red/rpi.svg"
+    },
+    {
+        "id": "a684baa964255cbc",
+        "type": "json",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "property": "payload_Volt",
+        "action": "obj",
+        "pretty": false,
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "8dffeb41b4c8cc47"
+            ]
+        ]
+    },
+    {
+        "id": "8dffeb41b4c8cc47",
+        "type": "function",
+        "z": "69d7a065eabb3658",
+        "name": "function Volt",
+        "func": "let volt = msg.payload.ch0_raw;\nmsg.payload = volt;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "7cb9f43ed2472ba5",
+                "64e2a39d86e40ced",
+                "b93c920f2fb76828"
+            ]
+        ]
+    },
+    {
+        "id": "a9123c32bd83333f",
+        "type": "function",
+        "z": "69d7a065eabb3658",
+        "name": "function Temperatura",
+        "func": "let t = msg.payload.payload_Temp;\nmsg.payload = t;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "9aee8a5292ee0bf0",
+                "b73758291a1cfee5",
+                "b544ee928fd8a45a"
+            ]
+        ]
+    },
+    {
+        "id": "64e2a39d86e40ced",
+        "type": "ui_gauge",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "group": "6ff33216bcaa15fe",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Volts",
+        "label": "V",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1.5",
+        "seg2": "3.5",
+        "diff": false,
+        "className": "",
+        "x": 630,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b93c920f2fb76828",
+        "type": "ui_chart",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "group": "6ff33216bcaa15fe",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Volt pico ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No hay datos disponibles.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b544ee928fd8a45a",
+        "type": "ui_chart",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "group": "01014463d832120c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No hay datos disponibles.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "150",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#ef2e2e",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b73758291a1cfee5",
+        "type": "ui_gauge",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "group": "01014463d832120c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "°C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "150",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "35",
+        "seg2": "90",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6224586ce8004f18",
+        "type": "mqtt in",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "topic": "temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9d9a90a57a9f813b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "7a150ae8632b70b4"
+            ]
+        ],
+        "icon": "node-red/rpi.svg"
+    },
+    {
+        "id": "7a150ae8632b70b4",
+        "type": "json",
+        "z": "69d7a065eabb3658",
+        "name": "",
+        "property": "payload_Temperatur",
+        "action": "obj",
+        "pretty": false,
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "a9123c32bd83333f"
+            ]
+        ]
+    },
+    {
+        "id": "7cb9f43ed2472ba5",
+        "type": "function",
+        "z": "69d7a065eabb3658",
+        "name": "function ALARM Volt",
+        "func": "let volt = msg.payload;\n\nlet maximum = 4.0;\nlet minimum = 0.0;\n\nif (volt > maximum || volt < minimum) {\n    msg.payload = \"ALERTA\";\n    msg.color = \"red\";\n} else {\n    msg.payload = \"NORMAL\";\n    msg.color = \"limegreen\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 40,
+        "wires": [
+            [
+                "ae5c07ece64e2d7d"
+            ]
+        ]
+    },
+    {
+        "id": "9aee8a5292ee0bf0",
+        "type": "function",
+        "z": "69d7a065eabb3658",
+        "name": "function ALARM Temperatur",
+        "func": "let temp = msg.payload;\n\nlet maximum = 50.0;\nlet minimum = 0.0;\n\nif (temp > maximum || temp < minimum) {\n    msg.payload = \"ALERTA\";\n    msg.color = \"red\";\n} else {\n    msg.payload = \"NORMAL\";\n    msg.color = \"limegreen\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 240,
+        "wires": [
+            [
+                "208760f2dc3ce54f"
+            ]
+        ]
+    },
+    {
+        "id": "208760f2dc3ce54f",
+        "type": "ui_text",
+        "z": "69d7a065eabb3658",
+        "group": "01014463d832120c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "<span style=\"color:{{msg.color}};font-weight:bold;font-size:20px;\"> ● {{msg.payload}} </span>",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 920,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ae5c07ece64e2d7d",
+        "type": "ui_text",
+        "z": "69d7a065eabb3658",
+        "group": "6ff33216bcaa15fe",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "<span style=\"color:{{msg.color}};font-weight:bold;font-size:20px;\"> ● {{msg.payload}} </span>",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#772222",
+        "x": 840,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1b7a76e045e717fc",
+        "type": "modbus-read",
+        "z": "a32afd31f2ea0e4f",
+        "name": "pico2",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "c1bc87682f9e45bd",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 110,
+        "y": 420,
+        "wires": [
+            [
+                "936f85a47861c206",
+                "6a7aa0829894a531"
+            ],
+            []
+        ],
+        "icon": "node-red/rpi.svg"
+    },
+    {
+        "id": "e21b8e06d6a9110a",
+        "type": "modbus-read",
+        "z": "a32afd31f2ea0e4f",
+        "name": "pico1",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "530f046ad9ae38ef",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "66b1d9286a2a1388",
+                "fd038399c66c62e2"
+            ],
+            []
+        ],
+        "icon": "node-red/rpi.svg"
+    },
+    {
+        "id": "fd038399c66c62e2",
+        "type": "function",
+        "z": "a32afd31f2ea0e4f",
+        "name": "function Volt",
+        "func": "msg.payload = msg.payload[0];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "486163fc9c64b887",
+                "6554b6b091a75dba",
+                "9295fb58e6442a6c"
+            ]
+        ]
+    },
+    {
+        "id": "936f85a47861c206",
+        "type": "function",
+        "z": "a32afd31f2ea0e4f",
+        "name": "function Temperatura",
+        "func": "let raw = msg.payload[0];\nmsg.payload = raw / 10.0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "46cad12783f02934",
+                "71ab145006490e45",
+                "0dd2639a059017c4"
+            ]
+        ]
+    },
+    {
+        "id": "6554b6b091a75dba",
+        "type": "ui_gauge",
+        "z": "a32afd31f2ea0e4f",
+        "name": "",
+        "group": "6190e02782b61af0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Volts",
+        "label": "V",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1.5",
+        "seg2": "3.5",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9295fb58e6442a6c",
+        "type": "ui_chart",
+        "z": "a32afd31f2ea0e4f",
+        "name": "",
+        "group": "6190e02782b61af0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Volt pico ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No hay datos disponibles.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 580,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0dd2639a059017c4",
+        "type": "ui_chart",
+        "z": "a32afd31f2ea0e4f",
+        "name": "",
+        "group": "6e6d6f365d747461",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No hay datos disponibles.",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "150",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#ef2e2e",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71ab145006490e45",
+        "type": "ui_gauge",
+        "z": "a32afd31f2ea0e4f",
+        "name": "",
+        "group": "6e6d6f365d747461",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "°C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "150",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "35",
+        "seg2": "90",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "486163fc9c64b887",
+        "type": "function",
+        "z": "a32afd31f2ea0e4f",
+        "name": "function ALARM Volt",
+        "func": "let volt = msg.payload;\n\nlet maximum = 4.0;\nlet minimum = 0.0;\n\nif (volt > maximum || volt < minimum) {\n    msg.payload = \"ALERTA\";\n    msg.color = \"red\";\n} else {\n    msg.payload = \"NORMAL\";\n    msg.color = \"limegreen\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 100,
+        "wires": [
+            [
+                "3fe7db4d102fcb84"
+            ]
+        ]
+    },
+    {
+        "id": "46cad12783f02934",
+        "type": "function",
+        "z": "a32afd31f2ea0e4f",
+        "name": "function ALARM Temperatur",
+        "func": "let temp = msg.payload;\n\nlet maximum = 50.0;\nlet minimum = 0.0;\n\nif (temp > maximum || temp < minimum) {\n    msg.payload = \"ALERTA\";\n    msg.color = \"red\";\n} else {\n    msg.payload = \"NORMAL\";\n    msg.color = \"limegreen\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "b407f7df438ccabe"
+            ]
+        ]
+    },
+    {
+        "id": "b407f7df438ccabe",
+        "type": "ui_text",
+        "z": "a32afd31f2ea0e4f",
+        "group": "6e6d6f365d747461",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "<span style=\"color:{{msg.color}};font-weight:bold;font-size:20px;\"> ● {{msg.payload}} </span>",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3fe7db4d102fcb84",
+        "type": "ui_text",
+        "z": "a32afd31f2ea0e4f",
+        "group": "6190e02782b61af0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado",
+        "format": "<span style=\"color:{{msg.color}};font-weight:bold;font-size:20px;\"> ● {{msg.payload}} </span>",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#772222",
+        "x": 780,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "66b1d9286a2a1388",
+        "type": "debug",
+        "z": "a32afd31f2ea0e4f",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6a7aa0829894a531",
+        "type": "debug",
+        "z": "a32afd31f2ea0e4f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "093efae88205652e",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-modbus": "5.45.2"
+        }
+    }
+]
