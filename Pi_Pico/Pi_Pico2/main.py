@@ -3,13 +3,11 @@ from machine import Pin
 import onewire, ds18x20
 from umqtt.simple import MQTTClient
 import network
-
-ssid = '***REMOVED***'
-password = '***REMOVED***'
+from config import WIFI_SSID, WIFI_PASSWORD, MQTT_BROKER, MQTT_USER, MQTT_PASS
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect(ssid, password)
+wlan.connect(WIFI_SSID, WIFI_PASSWORD)
 
 while not wlan.isconnected():
     time.sleep(0.5)
@@ -19,10 +17,8 @@ PIN = 16
 ow = onewire.OneWire(Pin(PIN, Pin.IN, Pin.PULL_UP))
 ds = ds18x20.DS18X20(ow)
 
-BROKER = '192.168.0.143'
+BROKER = MQTT_BROKER
 TOPIC = b"temperatura"
-MQTT_USER = 'sensor2'
-MQTT_PASS = '***REMOVED***'
 
 client = MQTTClient('pico2', BROKER, user=MQTT_USER, password=MQTT_PASS)
 

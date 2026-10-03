@@ -1,3 +1,6 @@
 .DS_Store
 
 .Rhistory
+
+# Device credentials (see config.example.py)
+Pi_Pico/*/config.py

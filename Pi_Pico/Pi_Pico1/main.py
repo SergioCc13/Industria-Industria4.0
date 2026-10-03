@@ -3,21 +3,17 @@ from machine import Pin, SPI
 from mcp3008 import MCP3008
 from umqtt.simple import MQTTClient
 import network
-
-ssid = '***REMOVED***'
-password = '***REMOVED***'
+from config import WIFI_SSID, WIFI_PASSWORD, MQTT_BROKER, MQTT_USER, MQTT_PASS
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect(ssid, password)
+wlan.connect(WIFI_SSID, WIFI_PASSWORD)
 
 while not wlan.isconnected():
     time.sleep(0.5)
 print("Conexión Wi-Fi establecida:", wlan.ifconfig())
 
-broker = '192.168.0.143'
-MQTT_USER = 'sensor1'
-MQTT_PASS = '***REMOVED***'
+broker = MQTT_BROKER
 
 client = MQTTClient('pico1', broker, user=MQTT_USER, password=MQTT_PASS)
 
