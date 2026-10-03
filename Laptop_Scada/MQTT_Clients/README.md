@@ -1,25 +1,30 @@
-# MQTT clients (portátil)
+# MQTT clients (laptop)
 
-Esta carpeta es para las pruebas MQTT que hice desde el portátil. En la Raspberry Pi se instaló Mosquitto y se levantó el servicio en 1883.
-Yo no tenía scripts guardados como tal: lo que usé fueron comandos en terminal (`mosquitto_sub` / `mosquitto_pub`). 
-Aquí lo dejo ordenado para poder repetirlo sin andar buscando en el historial.
+This folder covers the MQTT tests I ran from the laptop. Mosquitto was installed on the Raspberry Pi
+and listening on port 1883.
+I didn't keep standalone scripts: I used terminal commands (`mosquitto_sub` / `mosquitto_pub`).
+They are collected here so the tests can be repeated without digging through the shell history.
 
-## Datos del laboratorio (los que usé yo)
+## Lab settings (the ones I used)
 
 - **Broker (Mosquitto):** `192.168.0.143`
-- **Puerto:** `1883`
-- **Topics principales:**
-  - `temperatura` (Pico DS18B20)
-  - `volt` (Pico MCP3008)
-- **Topic de pruebas/inyección:**
+- **Port:** `1883`
+- **Main topics:**
+  - `temperatura` (Pico with DS18B20)
+  - `volt` (Pico with MCP3008)
+- **Test / injection topic:**
   - `tf/sensor/analog`
 
-## Suscripción (ver mensajes)
+## Subscribing (watching messages)
 
-### Temperatura
+### Temperature
+
+```bash
 mosquitto_sub -h 192.168.0.143 -t 'temperatura' -v
+```
 
-### Voltaje
+### Voltage
+
+```bash
 mosquitto_sub -h 192.168.0.143 -t 'volt' -v
-
-
+```
